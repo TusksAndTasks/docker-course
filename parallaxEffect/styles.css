@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.root {
+    display: flex;
+    height: 100vh;
+}
+
+.root > div {
+    flex: 1;
+}
+
+.squaresBlock {
+    position: relative;
+    overflow: auto;
+}
+
+.squaresWrapper {
+    height: 12000px;
+}
+
+.inputWrapper {
+    padding: 25px
+}
+
+#firstSquare,
+#secondSquare {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+#secondSquare {
+    left: 125px;
+}
