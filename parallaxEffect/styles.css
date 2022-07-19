@@ -25,6 +25,10 @@
     padding: 25px
 }
 
+.inputWrapper > * {
+    margin: 15px 0;
+}
+
 #firstSquare,
 #secondSquare {
     position: absolute;

@@ -18,12 +18,16 @@
         </div>
         <div>
             <div class="inputWrapper">
-                <label for="firstSquareImg">Выберите изображение для первого квадрата</label>
-                <input type="file" id="firstSquareImg">
-            </div>
-            <div class="inputWrapper">
-                <label for="secondSquareImg">Выберите изображение для второго квадрата</label>
-                <input type="file" id="secondSquareImg">
+                <h4>Выберите квадрат для которого хотите загрузить изображение</h4>
+                <div>
+                    <input type="radio" id="firstSquareRadio" name="squareId" value="firstSquare" checked>
+                    <label for="firstSquareRadio">Первый</label>
+                </div>
+                <div>
+                    <input type="radio" id="secondSquareRadio" name="squareId" value="secondSquare">
+                    <label for="secondSquareRadio">Второй</label>
+                </div>
+                <input type="file">
             </div>
         </div>
     </div>
